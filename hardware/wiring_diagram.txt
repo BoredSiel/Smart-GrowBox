@@ -1,0 +1,13 @@
+# Wiring Diagram: Smart GrowBox (GPIO Mapping)
+
+- pH Sensor         → GPIO 17
+- Temp/Humidity     → GPIO 4
+- Soil Moisture     → GPIO 27
+- Light Sensor      → GPIO 22
+- Water Pump Relay  → GPIO 23
+- Grow Light Relay  → GPIO 24
+- Ventilation Fan   → GPIO 25
+
+Note:
+Use 10kΩ pull-up resistors where applicable.
+Analog sensors require ADC modules (e.g., ADS1115).
